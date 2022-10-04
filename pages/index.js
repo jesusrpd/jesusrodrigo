@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <>
-      <header>
+      <header className='bg-dark'>
         <nav>
           <Image src="/icons/logo.svg" alt="" width={100} height={100} />
           <ul>
