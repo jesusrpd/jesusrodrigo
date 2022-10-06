@@ -88,7 +88,7 @@ a {
   margin: 2rem 0;
 }
 
-.bg-home {
+.bg-black {
   background-image: url("../../public/backgrounds/home.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -113,6 +113,34 @@ a {
   margin: 0rem 1.5rem;
   background-image: url("../../public/backgrounds/mosaico.png");
   background-size: cover;
+}
+
+.briefcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.briefcase-container {
+  width: 1015px;
+  height: 396px;
+  display: flex;
+}
+.briefcase-item {
+  background: #A12F2F;
+  border-radius: 10px;
+}
+.briefcase-item-v {
+  width: 251px;
+  height: 396px;
+}
+.briefcase-item-h {
+  width: 487px;
+  height: 191px;
+}
+.briefcase-item-c {
+  width: 251px;
+  height: 191px;
 }
 
 /*# sourceMappingURL=style.css.map */

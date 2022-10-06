@@ -1,0 +1,33 @@
+.briefcase{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &-container{
+    width: 1015px;
+    height: 396px;
+    display: flex;
+  }
+
+  &-item{
+
+    background: #A12F2F;
+    border-radius: 10px;
+
+    &-v{
+      width: 251px;
+      height: 396px;
+    }
+
+    &-h{
+      width: 487px;
+      height: 191px;
+    }
+
+    &-c{
+      width: 251px;
+      height: 191px;
+    }
+  }
+}

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home (){
   return(
-    <header className='bg-home w-full h-screen'>
+    <header className='bg-black w-full h-screen'>
       <nav className='nav'>
         <Image src="/icons/logo.svg" alt="" width={50} height={50} />
         <ul className='nav-links'>
