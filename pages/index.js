@@ -36,9 +36,22 @@ export default function Home() {
             <span className='text-white mt-1 mb-4'>Web developer full stack</span>
             <button className='bg-blue btn-blue'>Download CV</button>
           </div>
-          <Image src="/img/perfil.png" width={350} height={350} alt="imagen de mi perfil"/>
+          <Image src="/img/perfil.png" width={300} height={300} alt="imagen de mi perfil"/>
         </div>
       </header>
+      <main>
+        <div>
+          <h2>ABOUT ME</h2>
+          <p>Soy una persona comprometida, dedicado a lo que me gusta y siempre buscando mejorar.</p>
+          <p>Disfruto trabajar en equipo, esperando aportar desde mi experiencia y tambien aprender de los demas.</p>
+        </div>
+        <div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </main>
     </>
   )
 }
