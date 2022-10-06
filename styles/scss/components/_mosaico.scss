@@ -1,0 +1,18 @@
+.mosaico{
+  &-container{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+    rotate: 45deg;
+  }
+
+  &-item{
+    width: 200px;
+    height: 200px;
+    margin: 0rem 1.5rem;
+    background-image: url('../../public/backgrounds/mosaico.png');
+    background-size: cover;
+  }
+}

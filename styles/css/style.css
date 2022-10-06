@@ -29,10 +29,18 @@
 h1 {
   font-size: 36px;
   font-family: RobotoMono;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: RobotoMono;
+  font-weight: bold;
 }
 
 p {
   font-size: 18px;
+  line-height: 30px;
 }
 
 span {
@@ -84,6 +92,27 @@ a {
   background-image: url("../../public/backgrounds/home.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+.bg-white {
+  background-image: url("../../public/backgrounds/white.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mosaico-container {
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 2;
+  rotate: 45deg;
+}
+.mosaico-item {
+  width: 200px;
+  height: 200px;
+  margin: 0rem 1.5rem;
+  background-image: url("../../public/backgrounds/mosaico.png");
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
