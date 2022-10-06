@@ -1,0 +1,15 @@
+.nav{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 2rem 3rem;
+  justify-content: space-between;
+
+  &-links{
+    display: flex;
+  }
+
+  &-link{
+    margin: 0 1rem;
+  }
+}

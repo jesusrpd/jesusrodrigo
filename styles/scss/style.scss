@@ -4,12 +4,14 @@
 @tailwind utilities;
 
 // ABSTRACTS
-@import 
-  './abstrascts/colors',
-  './abstrascts/functions',
+@import
   './abstrascts/fonts',
   './abstrascts/reset';
 
 
 // COMPONENTS 
-@import './components/buttons';
+@import 
+  './components/buttons',
+  './components/nav',
+  './components/icons',
+  './components/backgrounds';
