@@ -143,4 +143,26 @@ a {
   height: 191px;
 }
 
+.form {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.form-input {
+  background: #121215;
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin: 2rem 0;
+  outline: none;
+}
+.form-input::placeholder {
+  color: white;
+}
+.form-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=style.css.map */

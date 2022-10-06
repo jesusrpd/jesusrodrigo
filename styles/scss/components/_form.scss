@@ -1,0 +1,24 @@
+.form{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  
+  &-input{
+    background: #121215;
+    color: white;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    margin: 2rem 0;
+    outline: none;
+
+    &::placeholder{
+      color: white;
+    }
+  
+    &-container{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
