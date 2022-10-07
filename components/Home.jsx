@@ -33,7 +33,7 @@ export default function Home (){
           <p className='text-blue my-1'>HELLO I´M</p>
           <h1 className='text-white my-1'>JESÚS RODRIGO</h1>
           <span className='text-white mt-1 mb-4'>Web developer full stack</span>
-          <button className='bg-blue btn-blue'>Download CV</button>
+          <button className='bg-blue btn-blue mt-2 mx-auto'>Download CV</button>
         </div>
         <Image src="/img/perfil.png" width={300} height={300} alt="imagen de mi perfil"/>
       </div>

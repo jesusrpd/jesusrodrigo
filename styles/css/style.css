@@ -58,7 +58,6 @@ a {
   border-radius: 0.5em;
   font-weight: bold;
   display: block;
-  margin: 0.5rem auto;
   transition: all 0.3s ease-in-out;
 }
 
@@ -154,15 +153,21 @@ a {
   color: white;
   border-radius: 5px;
   padding: 0.5rem 1rem;
-  margin: 2rem 0;
+  margin: 1rem 0;
   outline: none;
 }
 .form-input::placeholder {
   color: white;
 }
+.form-input-icon {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
 .form-input-container {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */

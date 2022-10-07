@@ -11,20 +11,24 @@ export default function Footer(){
         <p className='my-8 text-center'>Contactame si requieres mis servicios o para colaborar<br/> en algun proyecto.</p>
       </div>
       <form className='form'>
-        <h2>CONTACT ME</h2>
-        <div>
+        <h2 className='text-center mb-4'>CONTACT ME</h2>
+        <div className='form-input-container'>
           <input className='form-input' type="text" placeholder='Name'/>
-          <div>
+          <div className='form-input-icon'>
             <Image src="/icons/user.svg" width={20} height={20} alt="user icon"/>
           </div>
         </div>
-        <div>
+        <div className='form-input-container'>
           <input className='form-input' type="text" placeholder='Gamil'/>
-          <Image src="/icons/gmail.svg" width={20} height={20} alt="gmail icon"/>
+          <div className='form-input-icon'>
+            <Image src="/icons/gmail.svg" width={20} height={20} alt="gmail icon"/>
+          </div>
         </div>
-        <div>
+        <div className='form-input-container'>
           <input className='form-input' type="text" placeholder='Message (optional)'/>
-          <Image src="/icons/message.svg" width={20} height={20} alt="message icon"/>
+          <div className='form-input-icon'>
+            <Image src="/icons/message.svg" width={20} height={20} alt="message icon"/>
+          </div>
         </div>
         <button className='btn-blue bg-blue'>Send</button>
       </form>

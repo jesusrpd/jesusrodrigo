@@ -9,16 +9,23 @@
     color: white;
     border-radius: 5px;
     padding: .5rem 1rem;
-    margin: 2rem 0;
+    margin: 1rem 0;
     outline: none;
 
     &::placeholder{
       color: white;
     }
   
+    &-icon{
+      position: absolute;
+      top: 25px;
+      right: 10px;
+    }
+
     &-container{
       display: flex;
       flex-direction: column;
+      position: relative;
     }
   }
 }
