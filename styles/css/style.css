@@ -151,9 +151,24 @@ html {
   height: 396px;
   display: flex;
 }
+.briefcase-btn {
+  position: absolute;
+  bottom: 5px;
+  left: 40%;
+  cursor: pointer;
+}
 .briefcase-item {
   background: #A12F2F;
   border-radius: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.briefcase-item-title {
+  position: absolute;
+  top: 10px;
+  left: 20px;
 }
 .briefcase-item-v {
   width: 251px;
@@ -166,6 +181,22 @@ html {
 .briefcase-item-c {
   width: 251px;
   height: 191px;
+}
+
+#pack {
+  background: #FFF500;
+}
+
+#jared {
+  background: #004B22;
+}
+
+#shop {
+  background: #301D4F;
+}
+
+#organize {
+  background: white;
 }
 
 .form {

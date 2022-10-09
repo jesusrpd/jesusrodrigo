@@ -10,10 +10,27 @@
     display: flex;
   }
 
+  &-btn{
+    position: absolute;
+    bottom: 5px;
+    left: 40%;
+    cursor: pointer;
+  }
+
   &-item{
 
     background: #A12F2F;
     border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-title{
+      position: absolute;
+      top: 10px;
+      left: 20px;
+    }
 
     &-v{
       width: 251px;
@@ -30,4 +47,20 @@
       height: 191px;
     }
   }
+}
+
+#pack{
+  background: #FFF500;
+}
+
+#jared{
+  background: #004B22;
+}
+
+#shop{
+  background: #301D4F;
+}
+
+#organize{
+  background: white;
 }
