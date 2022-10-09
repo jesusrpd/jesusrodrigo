@@ -209,4 +209,23 @@ html {
   position: relative;
 }
 
+.card-container {
+  display: flex;
+  margin: auto;
+}
+.card-item {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  height: 250px;
+}
+.card-info {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
