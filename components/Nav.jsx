@@ -1,9 +1,18 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { useEffect } from 'react'
 
 export default function Nav () {
+
+  useEffect(()=> {
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('nav');
+      nav.classList.toggle('sticky', window.scrollY > 0);
+    })
+  },[])
+
   return(
-    <nav className='nav'>
+    <nav id='nav' className='nav'>
         <Image src="/icons/logo.svg" alt="" width={50} height={50} />
         <ul className='nav-links'>
           <li>

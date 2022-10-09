@@ -19,7 +19,7 @@ export default function Home (){
           <Image src="/icons/github.svg" alt='icon github' width={40} height={40}/>
         </a>
       </div>
-      <div className='flex w-full justify-around h-4/5 items-center'>
+      <div className='flex w-full justify-around h-full items-center'>
         <div className='text-center'>
           <p className='text-blue my-1'>HELLO I´M</p>
           <h1 className='text-white my-1'>JESÚS RODRIGO</h1>

@@ -4,6 +4,9 @@
   width: 100%;
   padding: 2rem 3rem;
   justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+  transition: all .3s ease-in-out;
 
   &-links{
     display: flex;
@@ -28,4 +31,10 @@
       transition: width .3s;
     }
   }
+}
+
+.sticky{
+  background: #121215;
+  padding: 1rem;
+
 }

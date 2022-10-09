@@ -75,6 +75,9 @@ html {
   width: 100%;
   padding: 2rem 3rem;
   justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+  transition: all 0.3s ease-in-out;
 }
 .nav-links {
   display: flex;
@@ -95,6 +98,11 @@ html {
 .nav-link:hover::after {
   width: 100%;
   transition: width 0.3s;
+}
+
+.sticky {
+  background: #121215;
+  padding: 1rem;
 }
 
 .icons-container {
