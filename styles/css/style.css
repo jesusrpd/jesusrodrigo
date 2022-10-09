@@ -1,26 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@font-face {
-  font-family: "RobotoMono";
-  src: url("../../public/fonts/RobotoMono-Bold.ttf") format("ttf");
-  font-style: normal;
-  font-weight: 400;
-}
-@font-face {
-  font-family: "RobotoMono";
-  src: url("../../public/fonts/RobotoMono-Bold.ttf") format("ttf");
-  font-style: normal;
-  font-weight: 700;
-}
-@font-face {
-  font-family: "RobotoMono";
-  src: url("../../public/fonts/RobotoMono-Medium.ttf") format("ttf");
-  font-style: normal;
-  font-weight: 500;
-}
 * {
-  font-family: RobotoMono;
+  font-family: "Roboto Mono", monospace;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -28,13 +10,13 @@
 
 h1 {
   font-size: 36px;
-  font-family: RobotoMono;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
 }
 
 h2 {
   font-size: 24px;
-  font-family: RobotoMono;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
 }
 

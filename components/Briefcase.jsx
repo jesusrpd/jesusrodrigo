@@ -15,19 +15,19 @@ export default function Briefcase (){
         </div>
         <div className="briefcase-items">
           <div id="jared" className="briefcase-item-h briefcase-item mb-4 mr-4">
-            <h2 className="mt-2 ml-2 briefcase-item-title">JARED´S LANDSCAPE</h2>
+            <h2 className="mt-2 ml-2 briefcase-item-title text-white">JARED´S LANDSCAPE</h2>
             <Image src="/img/jareds.png" width={200} height={100} alt="image jaredslandscape"/>
             <div className="flex flex-col items-center briefcase-btn">
-              <Image alt="arrow up icon" src="/icons/arrow_up.svg" width={10} height={10}/>
-              <span>Ver más</span>
+              <Image alt="arrow up icon" src="/icons/arrow_up_white.svg" width={10} height={10}/>
+              <span className="text-white">Ver más</span>
             </div>
           </div>
           <div id="shop" className="briefcase-item-h briefcase-item mr-4">
-            <h2 className="mt-2 ml-2 briefcase-item-title">Shop Web</h2>
+            <h2 className="mt-2 ml-2 briefcase-item-title text-white">Shop Web</h2>
             <Image src="/img/shop.png" width={200} height={130} alt="image shopweb"/>
             <div className="flex flex-col items-center briefcase-btn">
-              <Image alt="arrow up icon" src="/icons/arrow_up.svg" width={10} height={10}/>
-              <span>Ver más</span>
+              <Image alt="arrow up icon" src="/icons/arrow_up_white.svg" width={10} height={10}/>
+              <span className="text-white">Ver más</span>
             </div>
           </div>
         </div>
