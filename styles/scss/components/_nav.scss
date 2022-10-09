@@ -11,5 +11,21 @@
 
   &-link{
     margin: 0 1rem;
+    display: inline-block;
+
+    &::after{
+      content: '';
+      display: block;
+      width: 0;
+      margin: auto;
+      height: 3px;
+      background: white;
+      transition: width .3s;
+    }
+
+    &:hover::after{
+      width: 100%;
+      transition: width .3s;
+    }
   }
 }

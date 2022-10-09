@@ -1,19 +1,10 @@
 import Image from 'next/image'
+import Nav from './Nav'
 
 export default function Home (){
   return(
-    <header className='bg-black w-full h-screen'>
-      <nav className='nav'>
-        <Image src="/icons/logo.svg" alt="" width={50} height={50} />
-        <ul className='nav-links'>
-          <li><a className='nav-link text-white' href='#'>Home</a></li>
-          <li><a className='nav-link text-white' href='#'>About me</a></li>
-          <li><a className='nav-link text-white' href='#'>Briefcase</a></li>
-          <li><a className='nav-link text-white' href='#'>Trajectory</a></li>
-          <li><a className='nav-link text-white' href='#'>Services</a></li>
-          <li><a className='nav-link text-white' href='#'>Contact me</a></li>
-        </ul>
-      </nav>
+    <header id='home' className='bg-black w-full h-screen'>
+      <Nav/>
       <div className='icons-container fixed left-5 top-1/4'>
         <a>
           <Image src="/icons/whatsapp.svg" alt='icon whatsapp' width={40} height={40}/>

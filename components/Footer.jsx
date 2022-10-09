@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Footer(){
   return(
-    <footer className="bg-white w-full flex items-center justify-around py-16">
+    <footer id='contactme' className="bg-white w-full flex items-center justify-around py-16">
       <div>
         <p className='my-8 text-center'>Hecho por Jesús Rodrigo.</p>
         <p className='my-8 text-center'>México, CDMX</p>

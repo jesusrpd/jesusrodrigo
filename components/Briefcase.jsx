@@ -1,6 +1,6 @@
 export default function Briefcase (){
   return(
-    <section className="briefcase w-full h-screen bg-black">
+    <section id="briefcase" className="briefcase w-full h-screen bg-black">
       <h2 className="text-white mb-16">BRIEFCASE</h2>
       <div className="briefcase-container">
         <div className="briefcase-item-v briefcase-item mr-4">
