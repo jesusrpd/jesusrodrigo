@@ -26,8 +26,8 @@ export default function Services(){
   ]
 
   return(
-    <section id="services" className="w-full h-screen bg-black">
-      <h2 className="text-white">Services</h2>
+    <section id="services" className="w-full h-screen bg-black flex flex-col justify-center items-center">
+      <h2 className="text-white mb-16">Services</h2>
       <div className="card-container">
       {services.map( service => (
         <CardServices key={service.title} title={service.title} info={service.info} img={service.img}/>

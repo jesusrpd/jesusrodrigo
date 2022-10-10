@@ -211,7 +211,7 @@ html {
 
 .card-container {
   display: flex;
-  margin: auto;
+  margin: 0 auto;
 }
 .card-item {
   background: white;
@@ -223,6 +223,7 @@ html {
   align-items: center;
   width: 330px;
   height: 250px;
+  margin: 20px;
 }
 .card-info {
   text-align: center;
